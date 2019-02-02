@@ -1,0 +1,130 @@
+*{
+
+    margin: 0px;
+    padding: 0px;
+}
+body{
+   
+    background-position: 10% 90%;
+    color: black;
+    font-family: arial;
+    
+}
+input{
+
+    display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(255,255,255,0.01);
+    outline: none;
+}
+
+select{
+	
+	  display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(255,255,255,0.01);
+    outline: none;
+}
+
+
+div#corpo-form{
+
+    /*background-color: red;*/
+    width: 420px;
+    margin: 130px auto 0px auto;
+
+}
+
+div#corpo-form-cad{
+
+    /*background-color: red;*/
+    width: 420px;
+    margin: 80px auto 0px auto;
+
+}
+
+div#corpo-form h1, div#corpo-form-cad h1{
+    text-align: center;
+    padding: 20px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    display: block;
+}
+
+a:hover{
+ 
+    text-decoration: underline;
+}
+
+input[type=submit]{
+    
+   
+  
+    cursor: pointer;
+     display: block;
+    height: 55px;
+    width: 400px;
+    margin: 10px;
+    border-radius: 30px;
+    border: 1px solid black;
+    font-size: 16pt;
+    padding: 10px 20px;
+    background-color: rgb(255,255,255,0.01);
+    outline: none;
+
+}
+
+
+::-webkit-input-placeholder { /* Webkit browsers */
+    color: #fff;
+}
+
+::-moz-placeholder {  /* Mozila Firefor 4 to 18 */
+    color: #fff;
+}
+
+::-moz-placeholder { /* Mozilla Firefor 19+ */
+    color: #fff;
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    color: #fff;
+}
+
+
+
+dicv#msg-sucesso{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10;
+    background-color: rgba(50, 205, 50, .3);
+    border: 1px solid rbg (34, 139, 34);
+
+
+}
+
+dicv#msg-erro{
+    width: 400px;
+    margin: 10px auto;
+    padding: 10;
+    background-color: rgba(250, 128, 114, .3);
+    border: 1px solid rbg (162, 42, 42);
+
+}
+
